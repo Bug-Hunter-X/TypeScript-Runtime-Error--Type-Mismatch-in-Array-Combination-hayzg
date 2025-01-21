@@ -1,0 +1,1 @@
+This code demonstrates a common issue in TypeScript where a runtime error occurs despite successful compilation.  The `combineArrays` function is designed to merge two number arrays. However, a type mismatch in `array2` (containing a string "6") leads to a runtime error.  The solution shows how to improve type checking using type guards or assertion functions.
